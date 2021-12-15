@@ -9,14 +9,15 @@ class Beranda extends React.Component {
           <div className="container">
             <div className="row gy-4">
               <hr />
-              <div className="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                <h5 className="col-lg-6 col-sm-12 p-2">
+
+              <div className="col-6">
+                <h5 className="col-lg-6 col-sm-12">
                   Hi, i’m Afrida Choni Kurnia Sari
                 </h5>
                 <b>
-                  <h1 className="col-lg-6 col-sm-12 p-2">UI/UX Designer</h1>
+                  <h1 className="col-lg-6 col-sm-12">UI/UX Designer</h1>
                 </b>
-                <h10 className="col-lg-6 col-sm-12 p-2">
+                <h10 className="col-lg-6 col-sm-12 ">
                   I'm Afrida Choni Kurnia Sari. I'm 19 years old and i was born
                   in Malang, 10th April 2002. I have started learn about design
                   when i was in Vocational High School. There i began to find
@@ -26,10 +27,19 @@ class Beranda extends React.Component {
                   collaborate with you!
                 </h10>
                 <div>
-                  <a href="/" className="btn bg-dark text-white col-lg-1">
+                  <a href="/" className="btn bg-dark text-white col-lg-3 mt-4">
                     Hire Me
                   </a>
+                  <div class="mt-3">
+                    <img src="image/wa.jpeg" class="mx-1" width="35px"></img>
+                    <img src="image/tw.jpeg" class="mx-1" width="35px"></img>
+                    <img src="image/ig.jpeg" class="mx-1" width="35px"></img>
+                    <img src="image/git1.jpeg" class="mx-1" width="35px"></img>
+                    <img src="image/fb.jpeg" class="mx-1" width="35px"></img>
+                  </div>
                 </div>
+              </div>
+              <div className="col-6">
                 <div>
                   <img src="image/img.jpeg" width="300px"></img>
                 </div>

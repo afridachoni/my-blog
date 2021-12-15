@@ -5,9 +5,9 @@ class TentangSaya extends React.Component {
   render() {
     return (
       <div className="container">
-        <h3 className="text-bold text-dark mt-2">Project</h3>
+        <h3 className="text-bold text-dark mt-3">Project</h3>
 
-        <div className="row">
+        <div className="row mt-3">
           <div className="col-lg-6 col-sm-12 p-2">
             <div className="card">
               <div className="card-body row">
